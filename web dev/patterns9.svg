@@ -1,0 +1,177 @@
+<svg width="360" height="240" viewBox="0 0 360 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<line x1="60.5" y1="60.5" x2="60.5" y2="89.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="60.5" x2="59.5" y2="60.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="119.5" x2="119.5" y2="119.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="120.5" y1="0.5" x2="120.5" y2="59.5" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="60" height="60">
+<rect width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask0)">
+<circle r="59.5" stroke="#DADCE0"/>
+</g>
+<mask id="mask1" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="60" y="0" width="60" height="60">
+<rect x="60" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask1)">
+<circle cx="60" cy="60" r="59.5" stroke="#DADCE0"/>
+</g>
+<mask id="mask2" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="60" width="60" height="60">
+<rect y="60" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask2)">
+<circle cx="60" cy="120" r="59.5" stroke="#DADCE0"/>
+</g>
+<circle cx="90" cy="90" r="29.5" stroke="#DADCE0"/>
+<line x1="179.5" y1="59.5" x2="179.5" y2="30.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="239.5" y1="59.5" x2="180.5" y2="59.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="239.5" y1="0.5" x2="120.5" y2="0.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="119.5" y1="119.5" x2="119.5" y2="60.5" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask3" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="180" y="60" width="60" height="60">
+<rect x="240" y="120" width="60" height="60" transform="rotate(-180 240 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask3)">
+<circle cx="240" cy="120" r="59.5" transform="rotate(-180 240 120)" stroke="#DADCE0"/>
+</g>
+<mask id="mask4" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="120" y="60" width="60" height="60">
+<rect x="180" y="120" width="60" height="60" transform="rotate(-180 180 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask4)">
+<circle cx="180" cy="60" r="59.5" transform="rotate(-180 180 60)" stroke="#DADCE0"/>
+</g>
+<mask id="mask5" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="180" y="0" width="60" height="60">
+<rect x="240" y="60" width="60" height="60" transform="rotate(-180 240 60)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask5)">
+<circle cx="180" r="59.5" transform="rotate(-180 180 0)" stroke="#DADCE0"/>
+</g>
+<circle cx="150" cy="30" r="29.5" transform="rotate(-180 150 30)" stroke="#DADCE0"/>
+<line x1="300.5" y1="60.5" x2="300.5" y2="89.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="240.5" y1="60.5" x2="299.5" y2="60.5" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="240.5" y1="119.5" x2="359.5" y2="119.5" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask6" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="240" y="0" width="60" height="60">
+<rect x="240" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask6)">
+<circle cx="240" r="59.5" stroke="#DADCE0"/>
+</g>
+<mask id="mask7" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="300" y="0" width="60" height="60">
+<rect x="300" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask7)">
+<circle cx="300" cy="60" r="59.5" stroke="#DADCE0"/>
+</g>
+<mask id="mask8" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="240" y="60" width="60" height="60">
+<rect x="240" y="60" width="60" height="60" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask8)">
+<circle cx="300" cy="120" r="59.5" stroke="#DADCE0"/>
+</g>
+<circle cx="330" cy="90" r="29.5" stroke="#DADCE0"/>
+<line x1="0.5" y1="-0.5" x2="29.5" y2="-0.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 60 180)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="59.5" y2="-0.5" transform="matrix(-1 0 0 1 120 181)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="119.5" y2="-0.5" transform="matrix(-1 0 0 1 120 240)" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask9" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="60" y="120" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 120 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask9)">
+<circle r="59.5" transform="matrix(-1 0 0 1 120 120)" stroke="#DADCE0"/>
+</g>
+<mask id="mask10" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="120" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 60 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask10)">
+<circle r="59.5" transform="matrix(-1 0 0 1 60 180)" stroke="#DADCE0"/>
+</g>
+<mask id="mask11" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="60" y="180" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 120 180)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask11)">
+<circle r="59.5" transform="matrix(-1 0 0 1 60 240)" stroke="#DADCE0"/>
+</g>
+<circle r="29.5" transform="matrix(-1 0 0 1 30 210)" stroke="#DADCE0"/>
+<line x1="0.5" y1="-0.5" x2="29.5" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 180 180)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="59.5" y2="-0.5" transform="matrix(1 0 0 -1 120 179)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="119.5" y2="-0.5" transform="matrix(1 0 0 -1 120 120)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="59.5" y2="-0.5" transform="matrix(-4.37114e-08 -1 -1 4.37114e-08 240 240)" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask12" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="120" y="180" width="60" height="60">
+<rect width="60" height="60" transform="matrix(1 0 0 -1 120 240)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask12)">
+<circle r="59.5" transform="matrix(1 0 0 -1 120 240)" stroke="#DADCE0"/>
+</g>
+<mask id="mask13" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="180" y="180" width="60" height="60">
+<rect width="60" height="60" transform="matrix(1 0 0 -1 180 240)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask13)">
+<circle r="59.5" transform="matrix(1 0 0 -1 180 180)" stroke="#DADCE0"/>
+</g>
+<mask id="mask14" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="120" y="120" width="60" height="60">
+<rect width="60" height="60" transform="matrix(1 0 0 -1 120 180)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask14)">
+<circle r="59.5" transform="matrix(1 0 0 -1 180 120)" stroke="#DADCE0"/>
+</g>
+<circle r="29.5" transform="matrix(1 0 0 -1 210 150)" stroke="#DADCE0"/>
+<line x1="0.5" y1="-0.5" x2="29.5" y2="-0.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 300 180)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="59.5" y2="-0.5" transform="matrix(-1 0 0 1 360 181)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="119.5" y2="-0.5" transform="matrix(-1 0 0 1 360 240)" stroke="#DADCE0" stroke-linecap="square"/>
+<line x1="0.5" y1="-0.5" x2="59.5" y2="-0.5" transform="matrix(4.37114e-08 1 1 -4.37114e-08 240 120)" stroke="#DADCE0" stroke-linecap="square"/>
+<mask id="mask15" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="300" y="120" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 360 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask15)">
+<circle r="59.5" transform="matrix(-1 0 0 1 360 120)" stroke="#DADCE0"/>
+</g>
+<mask id="mask16" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="240" y="120" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 300 120)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask16)">
+<circle r="59.5" transform="matrix(-1 0 0 1 300 180)" stroke="#DADCE0"/>
+</g>
+<mask id="mask17" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="300" y="180" width="60" height="60">
+<rect width="60" height="60" transform="matrix(-1 0 0 1 360 180)" fill="#C4C4C4"/>
+</mask>
+<g mask="url(#mask17)">
+<circle r="59.5" transform="matrix(-1 0 0 1 300 240)" stroke="#DADCE0"/>
+</g>
+<circle r="29.5" transform="matrix(-1 0 0 1 270 210)" stroke="#DADCE0"/>
+<path d="M60 48C60 43.5817 63.5817 40 68 40H292C296.418 40 300 43.5817 300 48V200H60V48Z" fill="white" stroke="#212121"/>
+<path d="M124 104V103.5H123.5V104H124ZM228 104H228.5V103.5H228V104ZM124 160V160.5H124.5V160H124ZM68 160V159.5H67.5V160H68ZM68 200H67.5V200.5H68V200ZM228 200V200.5H228.5V200H228ZM124 104.5H228V103.5H124V104.5ZM123.5 104V160H124.5V104H123.5ZM124 159.5H68V160.5H124V159.5ZM68.5 200V160H67.5V200H68.5ZM228 199.5H68V200.5H228V199.5ZM227.5 104V200H228.5V104H227.5Z" fill="#F1F3F4"/>
+<rect opacity="0.32" x="68" y="64" width="160" height="32" fill="#CCEEFF" stroke="#0066FF"/>
+<rect opacity="0.32" x="68" y="104" width="48" height="48" fill="#FFDDFF" stroke="#9933FF"/>
+<rect opacity="0.32" x="236" y="64" width="56" height="56" fill="#FFDDEE" stroke="#FF3399"/>
+<rect x="236.5" y="128.5" width="55" height="55" stroke="#FF66CC"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M74 51C74 52.6569 72.6569 54 71 54C69.3431 54 68 52.6569 68 51C68 49.3431 69.3431 48 71 48C72.6569 48 74 49.3431 74 51ZM86 51C86 52.6569 84.6569 54 83 54C81.3431 54 80 52.6569 80 51C80 49.3431 81.3431 48 83 48C84.6569 48 86 49.3431 86 51ZM95 54C96.6569 54 98 52.6569 98 51C98 49.3431 96.6569 48 95 48C93.3431 48 92 49.3431 92 51C92 52.6569 93.3431 54 95 54Z" fill="white"/>
+<path d="M71 54.5C72.933 54.5 74.5 52.933 74.5 51H73.5C73.5 52.3807 72.3807 53.5 71 53.5V54.5ZM67.5 51C67.5 52.933 69.067 54.5 71 54.5V53.5C69.6193 53.5 68.5 52.3807 68.5 51H67.5ZM71 47.5C69.067 47.5 67.5 49.067 67.5 51H68.5C68.5 49.6193 69.6193 48.5 71 48.5V47.5ZM74.5 51C74.5 49.067 72.933 47.5 71 47.5V48.5C72.3807 48.5 73.5 49.6193 73.5 51H74.5ZM83 54.5C84.933 54.5 86.5 52.933 86.5 51H85.5C85.5 52.3807 84.3807 53.5 83 53.5V54.5ZM79.5 51C79.5 52.933 81.067 54.5 83 54.5V53.5C81.6193 53.5 80.5 52.3807 80.5 51H79.5ZM83 47.5C81.067 47.5 79.5 49.067 79.5 51H80.5C80.5 49.6193 81.6193 48.5 83 48.5V47.5ZM86.5 51C86.5 49.067 84.933 47.5 83 47.5V48.5C84.3807 48.5 85.5 49.6193 85.5 51H86.5ZM97.5 51C97.5 52.3807 96.3807 53.5 95 53.5V54.5C96.933 54.5 98.5 52.933 98.5 51H97.5ZM95 48.5C96.3807 48.5 97.5 49.6193 97.5 51H98.5C98.5 49.067 96.933 47.5 95 47.5V48.5ZM92.5 51C92.5 49.6193 93.6193 48.5 95 48.5V47.5C93.067 47.5 91.5 49.067 91.5 51H92.5ZM95 53.5C93.6193 53.5 92.5 52.3807 92.5 51H91.5C91.5 52.933 93.067 54.5 95 54.5V53.5Z" fill="#212121"/>
+<path d="M60 48C60 43.5817 63.5817 40 68 40H292C296.418 40 300 43.5817 300 48V200H60V48Z" stroke="#212121"/>
+<circle cx="148" cy="80" r="3" stroke="#212121"/>
+<circle cx="92" cy="128" r="3" stroke="#212121"/>
+<circle cx="148" cy="152" r="3" stroke="#212121"/>
+<path d="M95.5 128H220M220 121.5H184V80H151.5M220 134.5H184V152H151.5" stroke="#212121" stroke-dasharray="2 2"/>
+<path opacity="0.08" d="M214 72H310V190L286 214H262H214V72Z" fill="#212121"/>
+<path d="M316 64H220V208H268H292L316 184V64Z" fill="white" stroke="#212121"/>
+<mask id="mask18" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="220" y="64" width="96" height="144">
+<path d="M316 64H220V208H268H292L316 184V64Z" fill="white"/>
+</mask>
+<g mask="url(#mask18)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M248.067 78.5015C248.704 78.5299 249.253 78.9581 249.437 79.569L254.249 95.6106L258.621 85.4091C258.817 84.9516 259.228 84.6212 259.716 84.5271C260.205 84.4329 260.709 84.5874 261.061 84.9393L264.621 88.5H271.984L275.607 79.4429C275.844 78.8507 276.43 78.4731 277.067 78.5015C277.704 78.5299 278.253 78.9581 278.437 79.569L283.249 95.6106L287.621 85.4091C287.817 84.9516 288.228 84.6212 288.716 84.5271C289.205 84.4329 289.709 84.5874 290.061 84.9393L293.621 88.5H307V91.5H293C292.602 91.5 292.221 91.342 291.939 91.0607L289.506 88.6273L284.379 100.591C284.13 101.171 283.545 101.533 282.915 101.498C282.285 101.462 281.745 101.035 281.563 100.431L276.797 84.5451L274.393 90.5571C274.165 91.1266 273.613 91.5 273 91.5H264C263.602 91.5 263.221 91.342 262.939 91.0607L260.506 88.6273L255.379 100.591C255.13 101.171 254.545 101.533 253.915 101.498C253.285 101.462 252.745 101.035 252.563 100.431L247.797 84.5451L245.393 90.5571C245.165 91.1266 244.613 91.5 244 91.5H229V88.5H242.984L246.607 79.4429C246.844 78.8507 247.43 78.4731 248.067 78.5015Z" fill="#DADCE0"/>
+<rect x="236" y="120" width="16" height="16" rx="8" fill="#0DCE6B"/>
+<path d="M240 128L243 131L248 125" stroke="white" stroke-width="2"/>
+<path d="M265 122V133H272M284 123H279C277.895 123 277 123.895 277 125V131C277 132.105 277.895 133 279 133H284M289 129V123H293C294.105 123 295 123.895 295 125V127C295 128.105 294.105 129 293 129H289ZM289 129V134" stroke="#5F6368" stroke-width="2" stroke-linejoin="round"/>
+<rect x="236" y="146" width="16" height="16" rx="8" fill="#0DCE6B"/>
+<path d="M240 154L243 157L248 151" stroke="white" stroke-width="2"/>
+<path d="M265 160V154M276 149H280M284 149H280M276 159H280M284 159H280M272 149H265V154M265 154H272M280 149V159M289 149H293C294.105 149 295 149.895 295 151V157C295 158.105 294.105 159 293 159H289V149Z" stroke="#5F6368" stroke-width="2" stroke-linejoin="round"/>
+<rect x="236" y="172" width="16" height="16" rx="8" fill="#0DCE6B"/>
+<rect x="236.5" y="198.5" width="15" height="15" rx="7.5" stroke="#F1F3F4"/>
+<path d="M240 180L243 183L248 177" stroke="white" stroke-width="2"/>
+<path d="M277 174V185H280H284M296 175H289V180H295V183C295 184.105 294.105 185 293 185H288M272 175H267C265.895 175 265 175.895 265 177V180V183C265 184.105 265.895 185 267 185H272" stroke="#5F6368" stroke-width="2" stroke-linejoin="round"/>
+</g>
+<path d="M316 184L292 208V184H316Z" fill="#F1F3F4" stroke="#212121" stroke-linejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<path d="M0 3C0 1.34314 1.34315 0 3 0H357C358.657 0 360 1.34315 360 3V237C360 238.657 358.657 240 357 240H3C1.34314 240 0 238.657 0 237V3Z" fill="white"/>
+</clipPath>
+</defs>
+</svg>

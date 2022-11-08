@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Web dev</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Header -->
+<header class="header">
+    <nav class="nav">
+        <div class="nav--logo">
+            <a href="#" class="brand">
+                <svg viewBox="0 0 119.79 22.32" aria-label="web.dev" height="22.32" role="img" width="119.79" xmlns="http://www.w3.org/2000/svg"><path d="M114.99 19.32h-2.2l-4.8-11.9h2.4l3.5 9.2 3.5-9.2h2.4Zm-16.8-7.3h6.8a3.17 3.17 0 0 0-3.4-2.9 3.42 3.42 0 0 0-3.4 2.9Zm3.6 7.7a6 6 0 0 1-6-6.3c0-3.6 2.5-6.3 5.9-6.3s5.8 2.4 5.8 6.5v.2h-9.3a3.88 3.88 0 0 0 3.8 3.9 3.56 3.56 0 0 0 3.3-2.1l2 1a6.22 6.22 0 0 1-5.5 3.1Zm-14 0c-3.1 0-5.7-2.8-5.7-6.3s2.6-6.3 5.7-6.3a5 5 0 0 1 4.1 2h.1l-.1-1.6v-5.5h2.2v17.3h-2.1v-1.6h-.1a5.12 5.12 0 0 1-4.1 2Zm.3-2c2.2 0 3.8-1.7 3.8-4.3s-1.6-4.3-3.8-4.3a4 4 0 0 0-3.8 4.3 4 4 0 0 0 3.8 4.3Zm-6.8.1a1.61 1.61 0 0 1-1.7 1.6 1.74 1.74 0 0 1-1.7-1.6 1.67 1.67 0 0 1 1.7-1.6 1.61 1.61 0 0 1 1.7 1.6Zm-10.5-.1a4 4 0 0 0 3.8-4.3 4 4 0 0 0-3.8-4.3c-2.2 0-3.8 1.8-3.8 4.3s1.6 4.3 3.8 4.3Zm.4 2a5 5 0 0 1-4.1-2h-.1v1.6h-2.1V2.02h2.2v5.5l-.1 1.6h.1a4.84 4.84 0 0 1 4.1-2c3.1 0 5.7 2.8 5.7 6.3s-2.6 6.3-5.7 6.3Zm-17.4-7.7h6.8a3.17 3.17 0 0 0-3.4-2.9 3.42 3.42 0 0 0-3.4 2.9Zm3.6 7.7a6 6 0 0 1-6-6.3c0-3.6 2.5-6.3 5.9-6.3s5.8 2.4 5.8 6.5v.2h-9.3a3.88 3.88 0 0 0 3.8 3.9 3.67 3.67 0 0 0 3.3-2.1l2 1a6.22 6.22 0 0 1-5.5 3.1Zm-6.3-12.2-3.8 11.9h-2.3l-3-9.1-2.9 9.1h-2.3l-3.9-11.9h2.3l2.6 9 2.9-9h2.3l2.9 9 2.6-9Z" class="brand__text" fill="#5f6368" fill-rule="evenodd"></path><path d="M0 19.28a3 3 0 0 1 3-3h16.27a3.045 3.045 0 0 1 0 6.09H3.04A3 3 0 0 1 0 19.28Z" fill="#6cf"></path><path d="M.89.9a3 3 0 0 1 4.3 0l8.12 8.11a3.05 3.05 0 0 1 0 4.3l-8.12 8.12a3.04 3.04 0 1 1-4.3-4.3l5.6-5.61a.51.51 0 0 0 0-.72L.89 5.22A3 3 0 0 1 .89.9Z" fill="#06f" fill-rule="evenodd"></path><path d="m10.39 16.22-5.2 5.2a3.04 3.04 0 1 1-4.3-4.3l.89-.9Z" fill="#c6f"></path><circle cx="19.27" cy="19.27" fill="#06f" r="3.04"></circle></svg>
+            </a>
+        </div>
+        <div class="nav--items">
+            <a href="#">Learn</a>
+            <a href="#">Measure</a>
+            <a href="#">Blog</a>
+            <a href="#">Case studies</a>
+            <a href="#">About</a>
+        </div>
+        <div class="nav--search">
+            <button class="nav--search-btn">
+                <i class='bx bx-search'></i>
+            </button>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="banner--wrapper">
+            <div class="banner--info">
+                <h1>About web.dev</h1>
+                <div class="banner--info--content">
+                    <img src="./banner--img.svg" alt="banner--img">
+                    <h1>Let's build the future of the web, together</h1>
+                    <p>Take advantage of the latest modern technologies to build amazing web experiences for everyone.</p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+            <div class="banner--img">
+                <a class="banner--card1" href="#">
+                    <span>Featured</span>
+                    <h3>Celebrate Chrometober with web tricks and treats.</h3>
+                    <img src="banner--img--left--1.1.gif" alt="banner--img">
+                </a>
+                <a class="banner--card2" href="#">
+                    <span>Case study</span>
+                    <h3>MishiPay's PWA increases transactions 10 times and saves 2.5 years of queuing</h3>
+                    <img src="banner--img--left--2.2.avif" alt="banner--img">
+                </a>
+            </div>
+        </div>
+    </section>
+</header>
+<!-- Header -->
+
+<!-- PageSpeed -->
+
+<section data-aos="fade-up" class="pageSpeed">
+    <div class="pageSpeedWrapper">
+        <div class="pageSpeedInfo">
+            <p class="pageSpeedInfoTitle">PageSpeed Insights</p>
+            <div class="pageSpeedContent">
+                <h1>Measure performance with PageSpeed Insights</h1>
+                <p>PageSpeed Insights is a tool for measuring the performance and 
+                    Core Web Vitals of a page with lab and field data.
+                </p>
+            <div class="pageSpeedBtn">
+                <a class="pageSpeedBtn1" href="#">try pagespeed insights</a>
+                <a class="pageSpeedBtn2" href="#">learn more</a>
+            </div>
+            </div>
+        </div>
+        <div class="pageSpeedImg">
+            <img src="./pageSpeed.png" alt="img">
+        </div>
+    </div>
+</section>
+
+<!-- PageSpeed -->
+
+<!-- Future courses -->
+<section data-aos="fade-up" class="futureCourses">
+    <div class="futureCoursesWrapper">
+        <div class="futureCoursesInfo">
+            <h1>Featured courses</h1>
+            <p>Explore our structured learning paths to discover everything you need to know about building for the modern web.</p>
+           <div class="futureCoursesLink">
+               <a href="#">See all</a>
+           </div>
+        </div>
+        <div class="futureCoursesContent">
+            <div class="futureCoursesCarousel">
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M15.41 16.0699L10.83 11.7053L15.41 7.34075L14 6L8 11.7053L14 17.4106L15.41 16.0699Z"></path></svg>
+                </button>
+                <div class="card">
+                    <a href="#">
+                        <div class="card-header">
+                            <p>Courses</p>
+                            <div class="card--btn">
+                                <p>21</p>
+                                <svg viewBox="0 0 24 24" aria-label="mortarboard" class="icon" fill="currentColor" height="24" role="img" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.51 3.47a1.29 1.29 0 0 0-1 0L3 7a1.33 1.33 0 0 0 0 2.44L11.49 13a1.38 1.38 0 0 0 1 0L21 9.44A1.33 1.33 0 0 0 21 7Z"></path><path d="M4.71 14.07a1.33 1.33 0 0 1 1.82-1.24l5 2a1.35 1.35 0 0 0 1 0l5-2a1.33 1.33 0 0 1 1.82 1.24v3.1a1.32 1.32 0 0 1-.88 1.25l-6 2.13a1.24 1.24 0 0 1-.89 0l-6-2.13a1.32 1.32 0 0 1-.88-1.25Z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="card--img">
+                            <img src="./card--img.svg" alt="image">
+                        </div>
+                        <div class="card--info">
+                            <p>Discover how to make your websites and web apps more accessible.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="card-header">
+                            <p>Courses</p>
+                            <div class="card--btn">
+                                <p>21</p>
+                                <svg viewBox="0 0 24 24" aria-label="mortarboard" class="icon" fill="currentColor" height="24" role="img" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.51 3.47a1.29 1.29 0 0 0-1 0L3 7a1.33 1.33 0 0 0 0 2.44L11.49 13a1.38 1.38 0 0 0 1 0L21 9.44A1.33 1.33 0 0 0 21 7Z"></path><path d="M4.71 14.07a1.33 1.33 0 0 1 1.82-1.24l5 2a1.35 1.35 0 0 0 1 0l5-2a1.33 1.33 0 0 1 1.82 1.24v3.1a1.32 1.32 0 0 1-.88 1.25l-6 2.13a1.24 1.24 0 0 1-.89 0l-6-2.13a1.32 1.32 0 0 1-.88-1.25Z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="card--img">
+                            <img src="./card--img2.svg" alt="image">
+                        </div>
+                        <div class="card--info">
+                            <p>This HTML course for web developers provides a solid overview for developers, from novice to expert level HTML.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <div class="card-header">
+                            <p>Courses</p>
+                            <div class="card--btn">
+                                <p>21</p>
+                                <svg viewBox="0 0 24 24" aria-label="mortarboard" class="icon" fill="currentColor" height="24" role="img" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M12.51 3.47a1.29 1.29 0 0 0-1 0L3 7a1.33 1.33 0 0 0 0 2.44L11.49 13a1.38 1.38 0 0 0 1 0L21 9.44A1.33 1.33 0 0 0 21 7Z"></path><path d="M4.71 14.07a1.33 1.33 0 0 1 1.82-1.24l5 2a1.35 1.35 0 0 0 1 0l5-2a1.33 1.33 0 0 1 1.82 1.24v3.1a1.32 1.32 0 0 1-.88 1.25l-6 2.13a1.24 1.24 0 0 1-.89 0l-6-2.13a1.32 1.32 0 0 1-.88-1.25Z"></path></svg>
+                            </div>
+                        </div>
+                        <div class="card--img">
+                            <img src="./card--img3.svg" alt="image">
+                        </div>
+                        <div class="card--info">
+                            <p>Let's explore all aspects of responsive design, learning how to make sites that look great and work well for everyone.</p>
+                        </div>
+                    </a>
+                </div>
+                <button>
+                    <svg viewBox="0 0 24 24" fill="currentColor" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M8 7.34075L12.58 11.7053L8 16.0699L9.41 17.4106L15.41 11.7053L9.41 6L8 7.34075Z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Future courses -->
+
+<!-- Case studies -->
+<section data-aos="fade-up" class="caseStudy">
+    <div class="caseStudyWrapper">
+        <div class="futureCoursesInfo">
+            <h1>Case studies</h1>
+            <p class="caseStudyInfo">Learn why and how other developers have used the web to create amazing web experiences for their users.</p>
+           <div class="futureCoursesLink">
+               <a href="#">See all</a>
+           </div>
+        </div>
+        <div class="caseStudyContent">
+            <div class="caseStudyCard">
+                <a href="#">
+                    <img class="card--hero" src="./CaseStudy1.avif" alt="img">
+                </a>
+                <div class="cardHeader">
+                    <h3>Building a Better Web - Part 1: A faster YouTube on web</h3>
+                    <p>This is Part 1 of our new series on Building a Better YouTube Web called "Building a faster YouTube on web"</p>
+                </div>
+                <div style="margin-top: 9.7rem;" class="card--tags">
+                    <a href="#">Case Study</a>
+                    <a href="#">Performance</a>
+                    <a href="#">Web Vitals</a>
+                </div>
+            </div>
+            <div class="caseStudyCard">
+                <a href="#">
+                    <img src="./CaseStudy2.avif" alt="img">
+                </a>
+                <div class="cardHeader">
+                    <h3>How Rakuten 24's investment in Core Web Vitals increased revenue per visitor by 53.37% and conversion rate by 33.13%</h3>
+                    <p>By measuring real users' Web Vitals, Rakuten 24 also found that a good Largest Contentful Paint (LCP) can lead to a conversion rate increase of 61.13%.</p>
+                </div>
+                <div class="card--tags">
+                    <a href="#">Case Study</a>
+                    <a href="#">Web Vitals</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- Case studies -->
+
+<!-- Patterns -->
+
+<section data-aos="fade-up" class="patterns">
+    <div class="patternsWrapper">
+        <div class="patternsInfo">
+            <div class="futureCoursesInfo">
+                <h1>Patterns</h1>
+                <p>A collection of code snippets to help you optimize your web projects.</p>
+               <div class="futureCoursesLink">
+                   <a href="#">See all</a>
+               </div>
+            </div>
+        </div>
+        <div class="patternsContent">
+            <a href="#" class="card">
+                <img src="./patterns1.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns2.svg" alt="img">
+                <div class="card--content">
+                    <h3>Animation patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns3.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns4.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns5.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns6.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns7.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns8.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+            <a href="#" class="card">
+                <img src="./patterns9.svg" alt="img">
+                <div class="card--content">
+                    <h3>Advanced apps patterns</h3>
+                    <p>A collection of common patterns for building advanced apps.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Patterns -->
+
+
+<!-- Podcasts -->
+<section data-aos="fade-up" class="podcast">
+    <div class="podcastWrapper">
+        <div class="podcastInfo">
+            <div class="futureCoursesInfo">
+                <h1>Podcasts and Shows</h1>
+                <p>Level up your web development skills by listening to podcasts from Google Developers</p>
+               <div class="futureCoursesLink">
+                   <a href="#">See all</a>
+               </div>
+            </div>
+        </div>
+        <div class="podcastContent">
+            <a href="#">
+                <img src="./podcast.avif" alt="image">
+                <div class="podcastImgInfo">
+                    <p>Show</p>
+                    <h3>Designing in the browser</h3>
+                    <p>Designing in the Browser explores the intersection of design and front-end development, teaching you how to build beautiful UIs with modern web standards in mind.</p>
+                </div>
+            </a>
+            <a style="    border-top-left-radius: 0px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 0px" href="#">
+                <img src="./podcast2.avif" alt="image">
+                <div class="podcastImgInfo">
+                    <p>Podcast</p>
+                    <h3>The CSS Podcast</h3>
+                    <p>Designing in the Browser explores the intersection of design and front-end development, teaching you how to build beautiful UIs with modern web standards in mind.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+<hr>
+<!-- Podcasts -->
+
+<!-- Registration -->
+
+<section data-aos="fade-up" class="registration">
+    <div class="registrationWrapper">
+        <div class="futureCoursesInfo">
+            <h1>Developer Newsletter</h1>
+            <p>Get the latest news, techniques and updates straight to your inbox.</p>
+        </div>
+        <div class="registrationContent">
+            <form action="#">
+                <div class="nameSurname">
+                    <div>
+                        <label for="firstname"></label>
+                        <input type="text" required autocomplete="additional-name" placeholder="Firstname">
+                    </div>
+                    <div>
+                        <label for="lastname"></label>
+                        <input type="text" required autocomplete="additional-name" placeholder="Lastname">
+                    </div>
+                </div>
+                <div class="email">
+                    <label for="email"></label>
+                    <input type="email" placeholder="email" required autocomplete="email">
+                </div>
+                <div class="countries">
+                    <select name="select" id="country">
+                        <option value="uz">Uzbekistan</option>
+                        <option value="uz">Uzbekistan</option>
+                        <option value="uz">Uzbekistan</option>
+                        <option value="uz">Uzbekistan</option>
+                        <option value="uz">Uzbekistan</option>
+                        <option value="uz">Uzbekistan</option>
+                    </select>
+                </div>
+                <div class="text--center">
+                    <p>Don't worry, no spam here! Your information will only be used for web.dev and Chrome related updates and our emails are typically no more than 1-2 times a month. You can unsubscribe anytime.</p>
+                </div>
+                <div class="checker">
+                    <label class="container ">Add me to the web.dev mailing list.
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="lastchecker">
+                    <label class="container">I accept Google's <a href="#">Terms and Conditions</a> and acknowledge that my information will be used in accordance with Google's <a href="#">Privacy Policy.</a>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                </div>
+                <div class="noRobot">
+                    <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lfqf9YdAAAAAKUVvj6y53E_tMMlnj8dt1fpo-FV&amp;co=aHR0cHM6Ly93ZWIuZGV2OjQ0Mw..&amp;hl=ru&amp;v=Ixi5IiChXmIG6rRkjUa1qXHT&amp;size=normal&amp;cb=qtxnpcxg4e09" width="304" height="78" role="presentation" name="a-intr7dnp0his" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                </div>
+                <div class="accept">
+                    <button>subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- Registration -->
+
+<!-- Footer -->
+
+<footer>
+    <div data-aos="fade-up" class="footer--nav">
+        <div>
+            <h3>Contribute</h3>
+            <ul>
+                <li>
+                    <a href="#"> File a bug </a>
+                </li>
+                <li>
+                    <a href="#"> View source </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Related content</h3>
+            <ul>
+                <li>
+                    <a href="#"> developer.chrome.com</a>
+                </li>
+                <li>
+                    <a href="#">Chrome updates
+                    </a>
+                </li>
+                <li>
+                    <a href="#"> Case studies </a>
+                </li>
+                <li>
+                    <a href="#"> Podcasts </a>
+                </li>
+                <li>
+                    <a href="#">Shows</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Connect</h3>
+            <ul>
+                <li>
+                    <a href="#"> Twitter </a>
+                </li>
+                <li>
+                    <a href="#"> You Tube </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-nav middle">
+        <ul>
+            <li>
+                <a href="#"><img class="google--logo" src="./footer--google.png" alt="#"></a>
+            </li>
+            <li>
+                <a href="#">Chrome</a>
+            </li>
+            <li>
+                <a href="#">Firebase</a>
+            </li>
+            <li>
+                <a href="#">Google Cloud Platform</a>
+            </li>
+            <li>
+                <a href="#">All products</a>
+            </li>
+        </ul>
+        <div>
+            <div class="language--toggle">
+                <select name="lang" id="lang">
+                    <option value="eng">English(En)</option>
+                    <option value="ru">Russian</option>
+                    <option value="uzb">Uzbek</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="footer-nav"></div>
+</footer>
+
+<!-- Footer -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
